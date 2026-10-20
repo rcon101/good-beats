@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Vite / TypeScript build output and caches
+dist/
+.vite/
+*.tsbuildinfo
+
+# Test and coverage artifacts
+coverage/
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+
+# Logs and package-manager debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Local container overrides and persistent data
+docker-compose.override.yml
+docker-compose.*.override.yml
+data/
+volumes/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
